@@ -1,0 +1,14 @@
+h1  {
+    color: rgb(85, 69, 69);
+}
+
+#container  {
+    border: solid black 2px;
+    width: 600px;
+    height: 600px;
+    display: grid;
+}
+
+.grid-item   {
+    border: solid gray 1px;
+}
