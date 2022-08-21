@@ -1,14 +1,51 @@
+body    {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: beige;
+    gap: 35px;
+}
+
 h1  {
-    color: rgb(85, 69, 69);
+    color: rgb(109, 70, 39);
+    margin: 40px 0;
+    padding: 20px;
+    border: solid gray 2px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.content        {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu   {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 160px;
+    gap: 35px;
+}
+
+.menu > *  {
+    width: 75px;
+    height: 75px;
+    border: solid gray 2px;
 }
 
 #container  {
-    border: solid black 2px;
+    border: solid black 1px;
     width: 600px;
     height: 600px;
     display: grid;
 }
 
-.grid-item   {
-    border: solid gray 1px;
+.grid-item  {
+    border: solid rgb(160, 160, 160) 1px;
 }
+
+#colorpicker    {
+    width: 75px;
+    height: 75px;
+}
+
